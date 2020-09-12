@@ -5,10 +5,19 @@
 # else
 #   puts "Odd!"
 # end
-greeting = "friendly_greeting"
-case greeting
-when "unfriendly_greeting"
-  puts "You are rude!"
-when "friendly_greeting"
-  puts "Hi, you are so nice!"
+# greeting = "friendly_greeting"
+# case greeting
+# when "unfriendly_greeting"
+#   puts "You are rude!"
+# when "friendly_greeting"
+#   puts "Hi, you are so nice!"
+# end
+current_weather = "raining"
+case current_weather
+when "sunny"
+  puts "grab some sunscreen!"
+when "raining"
+  puts "grab an umbrella"
+when "snowing"
+  puts "bundle up"
 end
