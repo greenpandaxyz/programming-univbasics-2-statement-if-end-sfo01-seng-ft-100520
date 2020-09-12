@@ -12,7 +12,7 @@
 # when "friendly_greeting"
 #   puts "Hi, you are so nice!"
 # end
-current_weather = "raining"
+current_weather = "snowing"
 case current_weather
 when "sunny"
   puts "grab some sunscreen!"
